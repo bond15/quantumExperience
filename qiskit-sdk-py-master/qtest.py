@@ -54,31 +54,4 @@ if __name__ == '__main__':
 
 	makeSuperpositionState(5)
 	runAndDisplay(['circuitB'])
-	#minimal
-
-
-
-	#qr = qp.create_quantum_register('qr', 2)
-	#cr = qp.create_classical_register('cr',2)
-
-	#quantum programs have many circuits
-	#qc = qp.create_circuit('circuitA', [qr],[cr])
-
-
-	#circuit = qp.get_circuit('circuitA')
-
-	#quantum_r = qp.get_quantum_register('qr')
-	#classical_r = qp.get_classical_register('cr')
-
-	#circuit.h(quantum_r[0])
-	#circuit.h(quantum_r[1])
-	#circuit.cx(quantum_r[0], quantum_r[1])
-	#circuit.measure(quantum_r[0], classical_r[0])
-	#circuit.measure(quantum_r[1], classical_r[1])
-
-
-	#print the qasm
-	#qasm = qp.get_qasm('circuitA');
-	#print(qasm);
-
-	#compile and simulate
+	
